@@ -1,0 +1,17 @@
+<Form> er foreldretaggen som vi bruker for for å lage et skjema for datainnsamling. Den omslutter andre elementer som vi bruker for å 
+hente inn ulike type data. Dette er den grunleggende tagger vi bruker når vi lager et skjema.
+
+<input> er tagger vi bruker for å definere hva slags input vi forventer skal fylles inn i feltet.
+Brukes visst du vil hente inn: Navn, passord, mail, adresse osv.
+
+Attributtet "type" må vi ha med på input, for å bestemme hva slags type inputfelt <input> som er i nettleseren 
+
+Attributtet "name" er et annet attributt vi setter for å idenfisere daten som kommer inn i feltet. Dette er en lagringsplass.
+
+placeholder brukes til Eksempler til hva som skal fylles inn.
+
+HTML-skjema: <input>
+
+<textarea> Brukes til større mengder tekst som skal fylles inn, i forhold til input der det er et kort felt med tekst.
+Kan for eksempel være en beskjed eller melding der man skal fylle inn tekst.
+

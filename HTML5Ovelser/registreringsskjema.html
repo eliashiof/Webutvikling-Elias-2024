@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> Oppgave 1: Skjema</h2>
+    <form>
+        <label> Navn:
+        <input type="text" pattern="[A-Za-zæøåÆØÅ]{2,}" required> </label>
+
+        <label>E-post:
+        <input type="email"> </label>
+
+        <label>Passord:
+        <input type="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required></label>
+
+        <label>Alder: 
+        <input type="number" min="18" max="99" required></label>
+
+        <label>Telefonnummer:
+        <input type="tel" pattern="[0-9] {8,12}" required></label>
+
+        <label>Fødselsdato:
+        <input type="date" max="2023-12-31" required></label>
+
+        <label>Kjønn:</label>
+        <label>Mann
+            <input type="radio" name="valg"></label>
+
+            <label>Kvinne
+                <input type="radio" name="valg"></label>
+
+                <label>Annet
+                    <input type="radio" name="valg"></label>
+
+        <label>Land:
+            <select name="fav">
+            <option value="Norge">Norge</option>
+            <option value="Sverige">Sverige</option>
+            <option value="Danmark">Danmark</option>
+            </select>
+            </label>
+
+         <label>Personvern:
+            <input type="radio" required>
+        </label>
+
+        <label>
+        <input type="submit" value="Send melding">
+        </label>
+    </form>
+    
+</body>
+</html>
