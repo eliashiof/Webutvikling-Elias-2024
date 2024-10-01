@@ -1,0 +1,37 @@
+header{
+    background-image: url(https://thumbs.dreamstime.com/z/wooden-texture-brown-wood-background-grunge-oak-board-51726440.jpg?ct=jpeg);
+    background-size: cover;
+
+    text-transform: uppercase; color: aliceblue;
+    font-size: 20px;
+    padding: 5%;
+}
+
+nav ul{
+display:flex; 
+list-style: none;
+width: 100%;
+gap: 2rem;
+}
+
+a{
+
+}
+
+nav a:hover {
+    color: #ff1212dc; /* Endre fargen til en mørkere blå */
+}
+
+footer{
+    background-color: rgb(165, 150, 150);
+    text-transform: capitalize; 
+    color: aliceblue;
+    
+}
+
+main{
+    max-width: 70%;
+    min-width: 400px;
+    
+}
+

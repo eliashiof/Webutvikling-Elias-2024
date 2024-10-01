@@ -1,3 +1,10 @@
+html{
+    font-size: 18px;
+}
+
+*{
+    box-sizing: border-box;
+}
 body{
     text-decoration: none;
     color: black;
@@ -33,6 +40,9 @@ img{
     flex-wrap: wrap;
     gap: 1rem;
 }
+.flex-space-b h2{
+    width: 100%;
+}
 
 .flex-space-b form label{
     visibility: hidden;
@@ -40,4 +50,13 @@ img{
 
 #outlet{
     color:red;
+}
+
+.product-card{
+    min-width: 200px;
+max-width: 350px;
+width: 100%;
+box-shadow: 10px 7px 22px -2px #efefef;
+border-radius: 4px;
+padding: 1rem;
 }
